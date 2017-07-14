@@ -70,10 +70,7 @@ while running:
         record += record   
         f.dibuja()
         f.mover()
-            
-    if monkey.isJump:
-        monkey.Jump()
-      
+                
     #Refresca la pantalla
     pygame.display.update()
     
